@@ -48,7 +48,7 @@ This repository contains code and data for a graph neural network (GNN) + mixup 
 | `CorrelationToOutcomes.ipynb` | Compute graph summary statistics (strength, clustering) and correlations with outcomes. Implements logistic regression and linear regression with intra- and inter-class mixup. Includes 20-run 5-fold CV metrics. |
 | `LogisticRegressionMixup.ipynb` | Logistic regression, MLP, and SVR models on graph summary features with mixup. |
 | `BaselineGNN.ipynb` | Basic feedforward neural network (FFN) on patient data as a baseline. |
-| `Including_bprs_baseline_LogisticRegressionMixup.ipynb` | Variant of logistic regression mixup including key demographic features (BPRS baseline). |
+| `Including_bprs_baseline_LogisticRegressionMixup.ipynb` | Variant of logistic regression mixup including the key demographic feature BPRS baseline. |
 | `ConnectivityAsFeaturesAnalysis.ipynb` | Uses connectivity features of brain areas instead of graph structure for modeling. |
 | `Atlas_rest_results.ipynb` | Exploratory analysis to understand the fMRI dataset. |
 
